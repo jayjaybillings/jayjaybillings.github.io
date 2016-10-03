@@ -1,0 +1,120 @@
+<!-- HTML5 Doc Type Declaration -->
+<!DOCTYPE html>
+<html>
+
+<!-- Create the header -->
+<head>
+
+<!-- Set the metadata type and the browser title -->
+<meta charset="utf-8">
+<title>Welcome to the Webpage of Jay Jay Billings</title>
+
+<!-- Bootstrap CSS file link. This is Bootstrap 3.0.2, not 2.3.2! -->
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+<!-- Stylesheet from Bootstrap examples to pad the navbar -->
+<link href="navbar.css" rel="stylesheet">
+
+</head>
+
+<!-- Create the body -->
+<body>
+
+	<!-- Create the outermost container that will center everything -->
+	<div class="container">
+
+		<!-- Include the common parts of the body -->
+		<?php include("bodyParts.shtml"); ?>
+
+		<!-- Interests and Projects -->
+		<span><span style="font-weight: bold;">Interests and
+				Projects:</span><br> </span>
+		<div style="margin-left: 40px;">
+			<p>My scientific interests are, I think, pretty broad. I was
+				almost exclusively interested in astronomy and astrophysics when I
+				entered college, but I slowly developed a taste for other areas of
+				physics. I am active in several different fields of energy modeling
+				and simulation as well as quantum computing and information, kinetic
+				theory and data mining.</p>
+
+			<p>
+				I am the lead architect, developer and principal investigator of the
+				<a href="http://niceproject.sourceforge.net">NEAMS Integrated
+					Computational Environment (NiCE) </a>for the US Department of Energy's
+				Advanced Modeling and Simulation Office in the Office of Nuclear
+				Energy. The primary goal of NiCE is to create a unified, integrated
+				and dynamically reconfigurable environment in which analysts and
+				developers can perform modeling and simulation tasks without having
+				to fight with command line tools or hacked-together utilities. This
+				project has many research challenges, the most important of which is
+				the development of a single "workflow engine" that easily handle all
+				sorts of different tasks - from problem setup to data analysis - for
+				many different fields.
+			</p>
+
+			<p>In addition to the development of new modeling and simulation
+				capabilities, NiCE is directly responsible for a new branch of my
+				research program in the area of nuclear simulation data mining.
+				After working with simple post-processing tools for nuclear
+				simulation results, my team and I worked to apply data mining and
+				anomaly detection techniques to nuclear data in a scalable way. This
+				is an exciting development with some success (two papers, some
+				talks) and I’m looking forward to its development in the future.</p>
+
+			<p>I learned about quantum computing and information as an
+				undergraduate and had the opportunity to work in the field a couple
+				of years ago with some colleagues at the Lab. My team and I worked
+				with those colleagues to develop a simulator for adiabatic quantum
+				computers and we are currently researching ways that they simulator
+				can be used to simulate these systems for large numbers of cubits.
+				(>40 cubits is large for a simulation and some systems available
+				commercially have 512 cubits.)</p>
+
+			<p>
+				My newest project is the <a
+					href="https://sourceforge.net/p/xolotl-psi">Xolotl
+					Plasma-Surface Interactions simulator</a> that is under development for
+				the U.S. Department of Energy’s Scientific Computing through
+				Advanced Computing program. This project is developing a brand new
+				high-performance computing simulator for investigating the
+				interfaces between plasmas and surfaces in tokamaks and linear
+				fusion devices to determine the damage due to Helium irradiation of
+				the bulk. In addition to the computational physics research, my team
+				and I are also investing a large amount of effort into determining
+				the best ways to embed performance monitoring and visualization
+				technologies into the software. We are also doing research to
+				determine the best techniques for quantifying the uncertainty in
+				Xolotl’s results so that it can be compared directly to experiment.
+			</p>
+
+			<p>I am still active in astrophysics when I have time to spare
+				from all of these other activities. I no longer research colliding
+				galaxies, but I do continue to work with the joint UTK+ORNL
+				astrophysics group to investigate novel methods for solving reaction
+				networks (“kinetic theory”). Over the past decade or so we have
+				developed and published on several new algorithms that allow
+				extremely stiff systems of equations to be integrated explicitly by
+				exploiting the underlying physics and making appropriate
+				approximations.</p>
+
+			<p>As a perennially curious man, I am always adding new things to
+				my plate and looking for opportunities to collaborate to answer
+				meaningful and exciting questions.</p>
+
+		</div>
+	
+		<!-- Include contact information -->
+		<?php include("contactInfo.shtml"); ?>		
+		
+	</div>
+
+	<!-- Include JQuery and Bootstrap scripts. Putting them at the end preserves 
+		website performance (the heavy stuff loads last). JQuery must be loaded
+		before bootstrap. -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+	<!-- End the body -->
+</body>
+
+<!-- End the document -->
+</html>

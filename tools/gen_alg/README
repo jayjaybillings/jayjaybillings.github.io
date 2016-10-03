@@ -1,0 +1,52 @@
+Author: Jay Billings
+Author's email: jayjaybillings@gmail.com
+
+This code can be compiled by typing "gcc -c gen_alg.c." Some 
+example are provided in the makefile and can be compiled by
+typing "make <test>" where <test> is 1D_poly, 2D_gaussian, or
+2D_sinxbyx.
+
+This code is a genetic algorithm and can be used to maximize or
+minimize functions. The code is largely based on Pikaia with 
+some changes made to suit the author's tastes.
+
+To call the function,
+
+			gen_alg(n,x,ctrl,fit_func)
+
+where 
+
+		n = an integer number of dimensions of the vector x
+                x = an array of floats, size n
+                ctrl = control variables
+			ctrl[0] = # population members
+			ctrl[1] = # generations
+			ctrl[2] = crossover type, 0 = single-point
+			          1 = two-point,
+			          2 = multi-point
+			ctrl[3] = birth rate
+			ctrl[4] = mutation rate
+
+Copyright Information:
+
+Copyright (c) 2008       Jay Jay Billings
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+The license is also available at:
+
+		http://www.gnu.org/copyleft/gpl.html .
+
+Date: 2007/06/06

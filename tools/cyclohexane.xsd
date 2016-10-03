@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XSD []>
+<XSD Version="4.1">
+	<AtomisticTreeRoot ID="1" NumProperties="51" NumChildren="37">
+		<Property Name="AngleEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BendTorsionBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="DeformationEnergy" DefinedOn="MotionGroup" Type="Double"/>
+		<Property Name="EFGAsymmetry" DefinedOn="Atom" Type="Double"/>
+		<Property Name="EFGQuadrupolarCoupling" DefinedOn="Atom" Type="Double"/>
+		<Property Name="ElectrostaticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="FaceMillerIndex" DefinedOn="GrowthFace" Type="MillerIndex"/>
+		<Property Name="FacetTransparency" DefinedOn="GrowthFace" Type="Float"/>
+		<Property Name="Force" DefinedOn="Bondable" Type="CoDirection"/>
+		<Property Name="FrameFilter" DefinedOn="Trajectory" Type="String"/>
+		<Property Name="HarmonicForceConstant" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HarmonicMinimum" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HydrogenBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ImportOrder" DefinedOn="Bondable" Type="UnsignedInteger"/>
+		<Property Name="InternalEnergy" DefinedOn="MotionGroup" Type="Double"/>
+		<Property Name="IntramolecularEnergy" DefinedOn="AtomisticTreeRoot" Type="Double"/>
+		<Property Name="InversionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="IsBackboneAtom" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsChiralCenter" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsOutOfPlane" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="LineExtentPadding" DefinedOn="BestFitLineMonitor" Type="Double"/>
+		<Property Name="LinkageGroupName" DefinedOn="Linkage" Type="String"/>
+		<Property Name="ListIdentifier" DefinedOn="PropertyList" Type="String"/>
+		<Property Name="NMRShielding" DefinedOn="Atom" Type="Double"/>
+		<Property Name="NonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="NormalMode" DefinedOn="Bondable" Type="Direction"/>
+		<Property Name="NormalModeFrequency" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="NumScanSteps" DefinedOn="LinearScan" Type="UnsignedInteger"/>
+		<Property Name="OrbitalCutoffRadius" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="PlaneExtentPadding" DefinedOn="BestFitPlaneMonitor" Type="Double"/>
+		<Property Name="PotentialEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="QuantizationValue" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="RestraintEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ScanEnd" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="ScanStart" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="SeparatedStretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="SimulationStep" DefinedOn="Trajectory" Type="Integer"/>
+		<Property Name="SorbateID" DefinedOn="MotionGroup" Type="Integer"/>
+		<Property Name="StretchBendStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchTorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="SumChemicalPotential" DefinedOn="AtomisticTreeRoot" Type="Double"/>
+		<Property Name="TorsionBendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ValenceCrossTermEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ValenceDiagonalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="VanDerWaalsEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="_Stress" DefinedOn="SymmetrySystem" Type="Matrix"/>
+		<Atom3d ID="2" HasProperties="1" Name="C65" DisplayStyle="CPK" XYZ="4.24755313064184,9.03858106199771,5.37910281847024" Connections="3,4,5,6" Charge="-0.106" ForcefieldType="c4" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C">
+			<Properties Force="-0.000974379932011982,0.000494209496454068,0.000675380091471271"/>
+		</Atom3d>
+		<Atom3d ID="7" HasProperties="1" Name="C66" DisplayStyle="CPK" XYZ="2.97849120874974,9.80904921090081,5.77852446924875" Connections="3,8,9,10" Charge="-0.106" ForcefieldType="c4" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C">
+			<Properties Force="0.00060879964917725,-0.00039315140988052,-0.000522443492756208"/>
+		</Atom3d>
+		<Atom3d ID="11" HasProperties="1" Name="C67" DisplayStyle="CPK" XYZ="1.70944442469885,9.03856763257699,5.37908128218268" Connections="8,12,13,14" Charge="-0.106" ForcefieldType="c4" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C">
+			<Properties Force="-0.000604734561636243,0.000497191011063177,0.000253238004647408"/>
+		</Atom3d>
+		<Atom3d ID="15" HasProperties="1" Name="C68" DisplayStyle="CPK" XYZ="1.71061458546625,7.61689309010693,5.96256006351246" Connections="12,16,17,18" Charge="-0.106" ForcefieldType="c4" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C">
+			<Properties Force="0.00114602468642453,-0.00029718080658973,-0.000576295026017051"/>
+		</Atom3d>
+		<Atom3d ID="19" HasProperties="1" Name="C69" DisplayStyle="CPK" XYZ="2.97850917516012,6.85178157299748,5.551420975544" Connections="16,20,21,22" Charge="-0.106" ForcefieldType="c4" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C">
+			<Properties Force="-0.000692773949306329,0.000414286216232052,0.000554082351912891"/>
+		</Atom3d>
+		<Atom3d ID="23" HasProperties="1" Name="C70" DisplayStyle="CPK" XYZ="4.24638748246431,7.61690723332239,5.96258325895743" Connections="4,20,24,25" Charge="-0.106" ForcefieldType="c4" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C">
+			<Properties Force="0.000628774290304065,-0.000742459974373515,-0.000210407119512316"/>
+		</Atom3d>
+		<Atom3d ID="26" HasProperties="1" Name="H71" DisplayStyle="CPK" XYZ="0.80732538252642,9.58756254345445,5.69987147626686" Connections="13" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="0.001114729404481,-0.000511989679825915,-0.000529155819554216"/>
+		</Atom3d>
+		<Atom3d ID="27" HasProperties="1" Name="H72" DisplayStyle="CPK" XYZ="2.9784809394423,9.96445929914249,6.87199803092738" Connections="9" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="0.000423856481883899,-0.000120195128110405,0.000256891227136158"/>
+		</Atom3d>
+		<Atom3d ID="28" HasProperties="1" Name="H73" DisplayStyle="CPK" XYZ="2.97848987622185,10.8123485475363,5.31763726857191" Connections="10" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="-0.000206838497774873,-0.000105332808937184,7.60683185570751e-005"/>
+		</Atom3d>
+		<Atom3d ID="29" HasProperties="1" Name="H74" DisplayStyle="CPK" XYZ="4.29829763748168,8.97265254340421,4.28012653241881" Connections="5" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="-0.000348975875000602,1.97862367122293e-005,4.94167343388877e-005"/>
+		</Atom3d>
+		<Atom3d ID="30" HasProperties="1" Name="H75" DisplayStyle="CPK" XYZ="5.1496605493197,9.58758590501692,5.69990825294381" Connections="6" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="-0.000190630164191321,-0.000242882162018989,0.000178556068055959"/>
+		</Atom3d>
+		<Atom3d ID="31" HasProperties="1" Name="H76" DisplayStyle="CPK" XYZ="1.66393577821366,7.67587965599716,7.06452446859985" Connections="17" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="0.000414114273413641,-0.000130150008392004,2.92323013152327e-005"/>
+		</Atom3d>
+		<Atom3d ID="32" HasProperties="1" Name="H77" DisplayStyle="CPK" XYZ="0.808838353346152,7.06886587827078,5.6382554901256" Connections="18" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="0.000178748331420906,0.000165884098346368,-0.000224591489911531"/>
+		</Atom3d>
+		<Atom3d ID="33" HasProperties="1" Name="H78" DisplayStyle="CPK" XYZ="2.97851058601021,5.83995291189774,5.99215369226303" Connections="21" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="0.000208197909766566,0.000183842605237066,-5.2663528494622e-005"/>
+		</Atom3d>
+		<Atom3d ID="34" HasProperties="1" Name="H79" DisplayStyle="CPK" XYZ="2.97852050260274,6.71432574833382,4.4569786677749" Connections="22" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="-0.000496227944371315,0.000221176507033992,-0.000561394422994303"/>
+		</Atom3d>
+		<Atom3d ID="35" HasProperties="1" Name="H80" DisplayStyle="CPK" XYZ="4.2930443314346,7.67589559891009,7.06454850117295" Connections="24" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="0.000432550058485484,-6.12677421471672e-005,1.0320190711334e-005"/>
+		</Atom3d>
+		<Atom3d ID="36" HasProperties="1" Name="H81" DisplayStyle="CPK" XYZ="5.1481759079032,7.06888940057747,5.6382963718552" Connections="25" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="-0.00104521237194313,0.000552833378306902,0.000522372697109316"/>
+		</Atom3d>
+		<Atom3d ID="37" HasProperties="1" Name="H82" DisplayStyle="CPK" XYZ="1.65872006992972,8.97263950658958,4.2801042521423" Connections="14" Charge="0.053" ForcefieldType="h1" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H">
+			<Properties Force="-0.000305701067920756,6.52167858983127e-005,0.000197638392705453"/>
+		</Atom3d>
+		<CentroidMonitor ID="38" NumTriggerSets="2" MomentProperty="Mass">
+			<RestrictableMonitorTriggerSet ID="39" Objects="2,7,11,15,19,23,26,27,28,29,30,31,32,33,34,35,36,37" ShouldAllowDeletions="0" EventMask="13" Properties="XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ"/>
+			<MonitorTriggerSet ID="40" ShouldDefineCommonRoot="0"/>
+		</CentroidMonitor>
+		<Bond ID="3" Connects="7,2"/>
+		<Bond ID="8" Connects="11,7"/>
+		<Bond ID="12" Connects="15,11"/>
+		<Bond ID="16" Connects="19,15"/>
+		<Bond ID="4" Connects="23,2"/>
+		<Bond ID="20" Connects="23,19"/>
+		<Bond ID="13" Connects="26,11"/>
+		<Bond ID="9" Connects="27,7"/>
+		<Bond ID="10" Connects="28,7"/>
+		<Bond ID="5" Connects="29,2"/>
+		<Bond ID="6" Connects="30,2"/>
+		<Bond ID="17" Connects="31,15"/>
+		<Bond ID="18" Connects="32,15"/>
+		<Bond ID="21" Connects="33,19"/>
+		<Bond ID="22" Connects="34,19"/>
+		<Bond ID="24" Connects="35,23"/>
+		<Bond ID="25" Connects="36,23"/>
+		<Bond ID="14" Connects="37,11"/>
+	</AtomisticTreeRoot>
+</XSD>

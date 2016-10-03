@@ -1,0 +1,73 @@
+<!-- HTML5 Doc Type Declaration -->
+<!DOCTYPE html>
+<html>
+
+<!-- Create the header -->
+<head>
+
+<!-- Set the metadata type and the browser title -->
+<meta charset="utf-8">
+<title>Welcome to the Webpage of Jay Jay Billings</title>
+
+<!-- Bootstrap CSS file link. This is Bootstrap 3.0.2, not 2.3.2! -->
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+<!-- Stylesheet from Bootstrap examples to pad the navbar -->
+<link href="navbar.css" rel="stylesheet">
+
+</head>
+
+<!-- Create the body -->
+<body>
+
+	<!-- Create the outermost container that will center everything -->
+	<div class="container">
+
+		<!-- Include the common parts of the body -->
+		<?php include("bodyParts.shtml"); ?>
+		
+		<!-- Education -->
+		<span></span> <span></span> <span style="font-weight: bold;"><span>
+				Education:</span></span> <br>
+		<div style="margin-left: 40px;">
+			<p>I hold a Bachelor of Science from Virginia Tech and a Master
+				of Science from the University of Tennessee, both of which are in
+				physics. I have undergraduate minors in astronomy and mathematics.</p>
+
+			<p>I spent a lot of time in physics labs as an undergraduate at
+				VT and worked on neutrino, ultra-cold neutron and material
+				characterization projects in addition to spending nearly every free
+				hour of my senior year either behind a telescope or rebuilding one.
+				As a graduate student at UTK, I split my time between my regular
+				course work, organizing and leading the astronomy labs (which meant
+				building even more telescopes!) and working on my thesis with the
+				joint UTK+ORNL astrophysics group. My M.S. thesis, "Optimization of
+				Cosmological Simulations with Artificial Intelligence," was accepted
+				in December 2007 and focused on the development of
+				proof-of-principle software for optimizing the final configuration
+				of simulated galaxy collisions with feed-forward back-propagating
+				artificial neural networks and genetic algorithms.</p>
+
+		</div>
+		<span></span>
+		<div style="margin-left: 40px;">
+			<div style="margin-left: 40px;">
+				<span></span><span></span>
+			</div>
+		</div>
+	
+		<!-- Include contact information -->
+		<?php include("contactInfo.shtml"); ?>		
+		
+	</div>
+
+	<!-- Include JQuery and Bootstrap scripts. Putting them at the end preserves 
+		website performance (the heavy stuff loads last). JQuery must be loaded
+		before bootstrap. -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+	<!-- End the body -->
+</body>
+
+<!-- End the document -->
+</html>
