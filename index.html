@@ -24,11 +24,11 @@
 
 		<!-- Include the common parts of the body -->
 		<!--#include virtual="bodyParts.shtml" -->
-		 <div w3-include-html="bodyParts.html"></div> 
+		<div w3-include-html="bodyParts.html"></div>
 
 		<!-- About -->
-		<span style="font-weight: bold;"><span><br> About:</span> </span> <span><br>
-		</span>
+		<span style="font-weight: bold;"><span><br> About:</span>
+		</span> <span><br> </span>
 		<div style="margin-left: 40px;">
 			<p>I am a physicist and computer scientist at Oak Ridge National
 				Laboratory. I am a junior member of the Research Staff in the
@@ -37,11 +37,11 @@
 				lead research and development projects for new modeling and
 				simulation software in these areas.</p>
 
-			<p>This site contains a fair amount of information about me, all of
-				which is accessible by the navigation bar at the top. Please enjoy
-				and be sure to contact me if you have any questions. Any opinions
-				expressed on this site are my own and not necessarily those of my
-				employer or the U.S. Government, although they should be. ;)</p>
+			<p>This site contains a fair amount of information about me, all
+				of which is accessible by the navigation bar at the top. Please
+				enjoy and be sure to contact me if you have any questions. Any
+				opinions expressed on this site are my own and not necessarily those
+				of my employer or the U.S. Government, although they should be. ;)</p>
 		</div>
 
 		<!-- Include contact information -->
@@ -54,6 +54,12 @@
 		before bootstrap. -->
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<!-- Import a file for importing HTML in the body -->
+	<script src="http://www.w3schools.com/lib/w3data.js"></script>
+	<!-- Import body source code -->
+	<script>
+		w3IncludeHTML();
+	</script>
 
 	<!-- End the body -->
 </body>
