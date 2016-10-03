@@ -13,6 +13,8 @@
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 <!-- Stylesheet from Bootstrap examples to pad the navbar -->
 <link href="navbar.css" rel="stylesheet">
+<!-- Import a file for importing HTML in the body -->
+<script src="w3data.js"></script>
 
 </head>
 
@@ -23,21 +25,15 @@
 	<div class="container">
 
 		<!-- Include the common parts of the body -->
-		<?php include("bodyParts.shtml"); ?>
+		<div w3-include-html="bodyParts.html"></div>
 
-		<!-- Tools -->
-		<span style="font-weight: bold;">Tools:</span> <br>
-		<div style="margin-left: 40px;">
-			<p>
-				Click <a href="http://www.jayjaybillings.org/tools/">here</a> if you
-				need some of the various scripts that I have written.These tools are
-				mostly for my students and has not been updated for awhile, but I
-				have a lot of new stuff that I will add soon.
-			</p>
-		</div>
-	
+		<br>
+		<p>Please feel free to contact me by any of the mechanisms
+			described below. I only ask that you direct inquiries about my work
+			to my ORNL email address, not my personal email address.</p>
+
 		<!-- Include contact information -->
-		<?php include("contactInfo.shtml"); ?>		
+		<div w3-include-html="contactInfo.html"></div>
 
 	</div>
 
@@ -46,6 +42,10 @@
 		before bootstrap. -->
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<!-- Import body source code -->
+	<script>
+		w3IncludeHTML();
+	</script>
 
 	<!-- End the body -->
 </body>

@@ -13,6 +13,8 @@
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 <!-- Stylesheet from Bootstrap examples to pad the navbar -->
 <link href="navbar.css" rel="stylesheet">
+<!-- Import a file for importing HTML in the body -->
+<script src="w3data.js"></script>
 
 </head>
 
@@ -23,7 +25,7 @@
 	<div class="container">
 
 		<!-- Include the common parts of the body -->
-		<?php include("bodyParts.shtml"); ?>
+		<div w3-include-html="bodyParts.html"></div>
 
 		<!-- Interests and Projects -->
 		<span><span style="font-weight: bold;">Interests and
@@ -101,10 +103,10 @@
 				meaningful and exciting questions.</p>
 
 		</div>
-	
+
 		<!-- Include contact information -->
-		<?php include("contactInfo.shtml"); ?>		
-		
+		<div w3-include-html="contactInfo.html"></div>
+
 	</div>
 
 	<!-- Include JQuery and Bootstrap scripts. Putting them at the end preserves 
@@ -112,6 +114,10 @@
 		before bootstrap. -->
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<!-- Import body source code -->
+	<script>
+		w3IncludeHTML();
+	</script>
 
 	<!-- End the body -->
 </body>
